@@ -35,6 +35,7 @@ find_package(catkin REQUIRED COMPONENTS
   franka_msgs
   franka_gripper
   franka_example_controllers
+  franka_aisl_controllers
 )
 
 find_package(Franka 0.7.0 REQUIRED)
@@ -61,6 +62,7 @@ catkin_package(
     franka_msgs
     franka_gripper
     franka_example_controllers
+    franka_aisl_controllers
   INCLUDE_DIRS include
   LIBRARIES franka_hw_sim franka_gripper_sim
   DEPENDS Franka orocos_kdl
